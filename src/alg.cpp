@@ -21,9 +21,9 @@ uint64_t nPrime(uint64_t n) {
 
   while (count < n) {
     if (checkPrime(candidate)) {
-	  count++;
-	}
-	candidate++; 
+      count++;
+    }
+    candidate++;
   }
   return candidate - 1;
 }
